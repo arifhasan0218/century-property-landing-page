@@ -1,0 +1,70 @@
+/* =============================================================================
+                                For Mobile Responsive css 
+================================================================================*/
+@media only screen and (min-width:340px) and (max-width:567px){
+    .row{
+        justify-content: center;
+    }
+
+    .col-6{
+        width: 96% !important;
+        margin: 2% !important;
+    }
+
+    .banner {
+        padding: 50px 0;
+    }
+    .banner .left-text{
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+    .banner .left-text h1{
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+
+    .navbar-nav{
+        background-color: #f3f3f3;
+        text-align: right;
+        padding: 50px;
+        color: #fff;
+    }
+    .navbar-nav li a{
+        color: #283c52 !important;
+    }
+}
+
+@media only screen and (min-width:340px) and (max-width:567px){
+    .col-3{
+        width: 96% !important;
+        margin: 2%;
+    }
+
+}
+
+/* =============================================================================
+                                For Tab Responsive css 
+================================================================================*/
+
+@media only screen and (min-width:568px) and (max-width:992px){
+    .banner .left-text h1{
+        font-size: 3rem !important;
+        padding-top: 15px;
+    }
+
+    #section1 .col-3 h4{
+        font-size: 1rem !important;
+    }
+    #section1 .col-3 p{
+        font-size: 12px !important;
+    }
+    #section1 .col-3 button[type="submit"]{
+        font-size: 1rem !important;
+    }
+    .accroding-box h2{
+        font-size: 14px;
+    }
+
+
+}
