@@ -79,16 +79,27 @@ nav  .navbar-nav li a .active{
     box-shadow: 0 0 7px rgba(0, 0, 0, .7);
 }
 
+.middle-space{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle-space h4{
+    font-size: 2rem;
+    color: #283c52;
+}
+.middle-space i{
+    font-size: 2rem;
+    color: #283c52;
+}
+
+
 #section1 .row .col-3 h4 {
     color: #283c52;
     font-size: 1.5rem;
     padding-bottom: 10px;
     padding-top: 10px;
-}
-
-#section1 .row .col-3 h4 .fa-caret-down{
-    margin-left: 15px;
-    font-size: 2rem;
 }
 
 #section1 .row .col-3 p{
@@ -121,7 +132,7 @@ button i{
     padding-right: 15px;
 }
 
-.accroding-box{
+.accrodion-box{
     box-shadow: none !important;
 }
 
